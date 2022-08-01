@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="/css">
+</head>
+<body>
+    <div class="container">D&D Character Generator</div>
+
+    <section>
+        <section class="container2">
+            <button id='charbtn' class="button">Generate Character</button>
+
+            <section>
+                <button id="saveBtn" class="button">Save</button>
+            </section>
+        </section>
+
+    </section>
+
+    <section>
+        <div class="container3">
+            <button id='charbtn2' class="button2">Generate Stats</button>
+            <h1 id="statDisplay1">0</h1>
+        </div>
+    </section>
+    <section>
+        <div class="container4">
+            <div class="container4-1">
+                <div class="box">
+                    <button id='charbtn3' class="button3">Roll D20</button>
+                    <h1 id="d20Display">0</h1>
+                </div>
+                <div class="box">
+                    <button id='charbtn3-1' class="button3">Roll Percentage</button>
+                    <h1 id="percentDisplay">0</h1>
+                </div>
+                <div class="box">
+                    <button id='charbtn3-2' class="button3">Roll D12</button>
+                    <h1 id="d12Display">0</h1>
+                </div>
+                <div class="box">
+                    <button id='charbtn3-3' class="button3">Roll D10</button>
+                    <h1 id="d10Display">0</h1>
+                </div>
+                <div class="box">
+                    <button id='charbtn3-4' class="button3">Roll D8</button>
+                    <h1 id="d8Display">0</h1>
+                </div>
+                <div class="box">
+                    <button id='charbtn3-5' class="button3">Roll D6</button>
+                    <h1 id="d6Display">0</h1>
+                </div>
+                <div class="box">
+                    <button id='charbtn3-6' class="button3">Roll D4</button>
+                    <h1 id="d4Display">0</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container5">
+            <label>"Recent Characters:"
+                <select id='charbtn4' class="button4">
+                    <option value>-Select-</option>
+                </select>
+            </label>
+        </div>
+    </section>
+    
+    <script src="./pindex.js"></script>
+    <script src="/js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.4/html2canvas.min.js"></script>
+    <script src=https://unpkg.com/axios/dist/axios.min.js></script>
+</body>
+</html>
